@@ -1,12 +1,11 @@
 ﻿using coreStoreAPI.Models;
 using Microsoft.EntityFrameworkCore;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace coreStoreAPI.Context
 {
-    public class Context : DbContext
+    public class CoreContext : DbContext
     {
-        public Context(DbContextOptions<Context> options) : base(options)
+        public CoreContext(DbContextOptions<CoreContext> options) : base(options)
         {
         }
 

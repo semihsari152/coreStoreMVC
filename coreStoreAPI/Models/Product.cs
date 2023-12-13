@@ -36,6 +36,7 @@ namespace coreStoreAPI.Models
         public DateTime ProductCreateDate { get; set; }
         public DateTime ProductUpdateDate { get; set; }
         public bool ProductFreeShippingInfo { get; set; }
+        public bool ProductStatus { get; set; }
 
         public int SubCategoryID { get; set; }
         public SubCategory? SubCategory { get; set; }
